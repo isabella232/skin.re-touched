@@ -1017,7 +1017,6 @@
 					<ondown>9000</ondown>
 					<itemgap>0</itemgap>
 					<control type="button" id="201">
-						<description>Sort by button</description>
 						<include>ButtonCommonValues2</include>
 						<label>19019</label>
 						<onclick condition="Window.IsVisible(TVChannels) | Window.IsVisible(RadioChannels)">NextChannelGroup</onclick>
@@ -1025,7 +1024,6 @@
 						<onclick condition="!IsEmpty(Window.Property(IsRadio))">ReplaceWindow(RadioChannels)</onclick>
 					</control>
 					<control type="button" id="202">
-						<description>Sort by button</description>
 						<include>ButtonCommonValues2</include>
 						<label>22020</label>
 						<onclick condition="Window.IsVisible(TVGuide) | Window.IsVisible(RadioGuide)">NextChannelGroup</onclick>
@@ -1033,28 +1031,24 @@
 						<onclick condition="!IsEmpty(Window.Property(IsRadio))">ReplaceWindow(RadioGuide)</onclick>
 					</control>
 					<control type="button" id="203">
-						<description>Sort by button</description>
 						<include>ButtonCommonValues2</include>
 						<label>19163</label>
 						<onclick condition="IsEmpty(Window.Property(IsRadio))">ReplaceWindow(TVRecordings)</onclick>
 						<onclick condition="!IsEmpty(Window.Property(IsRadio))">ReplaceWindow(RadioRecordings)</onclick>
 					</control>
 					<control type="button" id="204">
-						<description>Sort by button</description>
 						<include>ButtonCommonValues2</include>
 						<label>19040</label>
 						<onclick condition="IsEmpty(Window.Property(IsRadio))">ReplaceWindow(TVTimers)</onclick>
 						<onclick condition="!IsEmpty(Window.Property(IsRadio))">ReplaceWindow(RadioTimers)</onclick>
 					</control>
 					<control type="button" id="205">
-						<description>Sort by button</description>
 						<include>ButtonCommonValues2</include>
 						<label>137</label>
 						<onclick condition="IsEmpty(Window.Property(IsRadio))">ReplaceWindow(TVSearch)</onclick>
 						<onclick condition="!IsEmpty(Window.Property(IsRadio))">ReplaceWindow(RadioSearch)</onclick>
 					</control>
 					<control type="button" id="206">
-						<description>Sort by button</description>
 						<include>ButtonCommonValues2</include>
 						<label>$VAR[PVRSwitch]</label>
 						<onclick condition="IsEmpty(Window.Property(IsRadio))">ReplaceWindow(RadioChannels)</onclick>
