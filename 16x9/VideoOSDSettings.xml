@@ -30,13 +30,23 @@
 			<height>740</height>
 			<texture border="5">DialogBack.png</texture>
 		</control>
-		<control type="label" id="2">
+		<control type="label">
 			<description>header label</description>
 			<posx>20</posx>
 			<posy>0</posy>
 			<include>WindowTitleCommons</include>
 			<width>700</width>
-			<label>-</label>
+			<label>$LOCALIZE[3] - $LOCALIZE[5]</label>
+			<visible>Window.IsVisible(123)</visible>
+		</control>
+		<control type="label">
+			<description>header label</description>
+			<posx>20</posx>
+			<posy>0</posy>
+			<include>WindowTitleCommons</include>
+			<width>700</width>
+			<label>$LOCALIZE[292] - $LOCALIZE[5]</label>
+			<visible>Window.IsVisible(124)</visible>
 		</control>
 		<control type="group">
 			<posx>730</posx>

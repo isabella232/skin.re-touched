@@ -25,7 +25,7 @@
 				<posy>0</posy>
 				<include>WindowTitleCommons</include>
 				<width>910</width>
-				<label>-</label>
+				<label>$LOCALIZE[21432]</label>
 			</control>
 			<control type="group">
 				<posx>930</posx>
