@@ -179,25 +179,25 @@
 				<description>Find similar</description>
 				<width>230</width>
 				<include>ButtonInfoDialogsCommonValues</include>
-				<label>20413</label>
+				<label>19003</label>
 			</control>
 			<control type="button" id="5">
 				<description>Switch Channel</description>
 				<width>230</width>
 				<include>ButtonInfoDialogsCommonValues</include>
-				<label>206</label>
+				<label>19165</label>
 			</control>
 			<control type="button" id="6">
 				<description>Record</description>
 				<width>230</width>
 				<include>ButtonInfoDialogsCommonValues</include>
-				<label>184</label>
+				<label>-</label>
 			</control>
 			<control type="button" id="10">
 				<description>OK</description>
 				<width>230</width>
 				<include>ButtonInfoDialogsCommonValues</include>
-				<label>13405</label>
+				<label>186</label>
 			</control>
 		</control>
 

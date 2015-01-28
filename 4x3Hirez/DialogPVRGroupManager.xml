@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <window id="126">
-	<defaultcontrol always="true">22</defaultcontrol>
+	<defaultcontrol always="true">12</defaultcontrol>
 	<allowoverlay>no</allowoverlay>
 	<include>16x9_xPos_Relocation</include>
 	<include>Window_OpenClose_Animation_Zoom</include>
@@ -394,31 +394,31 @@
 				<description>Add button</description>
 				<width>200</width>
 				<include>ButtonInfoDialogsCommonValues</include>
-				<label>186</label>
+				<label>31561</label>
 			</control>
 			<control type="button" id="27">
 				<description>Rename button</description>
 				<width>200</width>
 				<include>ButtonInfoDialogsCommonValues</include>
-				<label>222</label>
+				<label>31562</label>
 			</control>
 			<control type="button" id="25">
 				<description>Hide button</description>
 				<width>200</width>
 				<include>ButtonInfoDialogsCommonValues</include>
-				<label>14070</label>
+				<label>19289</label>
 			</control>
 			<control type="button" id="28">
 				<description>Delete button</description>
 				<width>200</width>
 				<include>ButtonInfoDialogsCommonValues</include>
-				<label>186</label>
+				<label>31563</label>
 			</control>
 			<control type="button" id="29">
 				<description>OK button</description>
 				<width>200</width>
 				<include>ButtonInfoDialogsCommonValues</include>
-				<label>222</label>
+				<label>186</label>
 			</control>
 		</control>
 	</controls>
