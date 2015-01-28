@@ -36,7 +36,7 @@
 			<posy>0</posy>
 			<include>WindowTitleCommons</include>
 			<width>700</width>
-			<label>$LOCALIZE[19019]</label>
+			<label>$INFO[VideoPlayer.ChannelName] - $INFO[Container(11).ListItem.StartDate]</label>
 		</control>
 		<control type="group">
 			<posx>730</posx>
@@ -98,33 +98,25 @@
 				<control type="label">
 					<posx>100</posx>
 					<posy>65</posy>
-					<width>100</width>
+					<width>330</width>
 					<height>20</height>
 					<font>font10_title</font>
 					<textcolor>blue</textcolor>
 					<selectedcolor>blue</selectedcolor>
-					<align>center</align>
-					<label>$INFO[ListItem.StartTime]</label>
+					<align>left</align>
+					<label>$LOCALIZE[19080] $INFO[ListItem.StartTime]</label>
 					<visible>ListItem.HasEpg</visible>
 				</control>
-				<control type="progress">
-					<description>Progress</description>
-					<posx>200</posx>
-					<posy>65</posy>
-					<width>470</width>
-					<height>15</height>
-					<info>ListItem.Progress</info>
-				</control>
 				<control type="label">
-					<posx>670</posx>
+					<posx>440</posx>
 					<posy>65</posy>
-					<width>100</width>
+					<width>330</width>
 					<height>20</height>
 					<font>font10_title</font>
 					<textcolor>blue</textcolor>
 					<selectedcolor>blue</selectedcolor>
 					<align>center</align>
-					<label>$INFO[ListItem.EndTime]</label>
+					<label>$LOCALIZE[19081] $INFO[ListItem.EndTime]</label>
 					<visible>ListItem.HasEpg</visible>
 				</control>
 			</itemlayout>
@@ -172,33 +164,25 @@
 				<control type="label">
 					<posx>100</posx>
 					<posy>65</posy>
-					<width>100</width>
+					<width>330</width>
 					<height>20</height>
 					<font>font10_title</font>
 					<textcolor>blue</textcolor>
 					<selectedcolor>blue</selectedcolor>
-					<align>center</align>
-					<label>$INFO[ListItem.StartTime]</label>
+					<align>left</align>
+					<label>$LOCALIZE[19080] $INFO[ListItem.StartTime]</label>
 					<visible>ListItem.HasEpg</visible>
 				</control>
-				<control type="progress">
-					<description>Progress</description>
-					<posx>200</posx>
-					<posy>65</posy>
-					<width>470</width>
-					<height>15</height>
-					<info>ListItem.Progress</info>
-				</control>
 				<control type="label">
-					<posx>670</posx>
+					<posx>440</posx>
 					<posy>65</posy>
-					<width>100</width>
+					<width>330</width>
 					<height>20</height>
 					<font>font10_title</font>
 					<textcolor>blue</textcolor>
 					<selectedcolor>blue</selectedcolor>
 					<align>center</align>
-					<label>$INFO[ListItem.EndTime]</label>
+					<label>$LOCALIZE[19081] $INFO[ListItem.EndTime]</label>
 					<visible>ListItem.HasEpg</visible>
 				</control>
 			</focusedlayout>
