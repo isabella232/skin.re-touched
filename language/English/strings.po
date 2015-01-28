@@ -386,3 +386,7 @@ msgstr ""
 msgctxt "#31559"
 msgid "Channel settings"
 msgstr ""
+
+msgctxt "#31560"
+msgid "Available groups"
+msgstr ""
