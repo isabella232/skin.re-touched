@@ -471,6 +471,10 @@
 			<description>Filter button needed for panel below to work</description>
 			<visible>false</visible>
 		</control>
+		<control type="button" id="31">
+			<description>Filter button needed for panel below to work</description>
+			<visible>false</visible>
+		</control>
 		<control type="panel" id="9002">
 			<visible>!Window.IsActive(PlayerControls)</visible>
 			<include>VisibleFadeEffect</include>
@@ -481,14 +485,20 @@
 					<onclick condition="!Container.CanFilterAdvanced">SendClick(19)</onclick>
 					<onclick condition="Container.CanFilterAdvanced">Filter</onclick>
 					<icon>icon_filter.png</icon>
-					<visible>!Container.Filtered + ![Window.IsVisible(TVRecordings) | Window.IsVisible(RadioRecordings) | Window.IsVisible(TVTimers) | Window.IsVisible(RadioTimers) | Window.IsVisible(TVSearch) | Window.IsVisible(RadioSearch)]</visible>
+					<visible>!Container.Filtered + ![Window.IsVisible(TVChannels) | Window.IsVisible(RadioChannels) | Window.IsVisible(TVRecordings) | Window.IsVisible(RadioRecordings) | Window.IsVisible(TVTimers) | Window.IsVisible(RadioTimers) | Window.IsVisible(TVSearch) | Window.IsVisible(RadioSearch)]</visible>
 				</item>
 				<item>
 					<label>587</label>
 					<onclick condition="!Container.CanFilterAdvanced">SendClick(19)</onclick>
 					<onclick condition="Container.CanFilterAdvanced">Filter</onclick>
 					<icon>icon_filter_on.png</icon>
-					<visible>Container.Filtered + ![Window.IsVisible(TVRecordings) | Window.IsVisible(RadioRecordings) | Window.IsVisible(TVTimers) | Window.IsVisible(RadioTimers) | Window.IsVisible(TVSearch) | Window.IsVisible(RadioSearch)]</visible>
+					<visible>Container.Filtered + ![Window.IsVisible(TVChannels) | Window.IsVisible(RadioChannels) | Window.IsVisible(TVRecordings) | Window.IsVisible(RadioRecordings) | Window.IsVisible(TVTimers) | Window.IsVisible(RadioTimers) | Window.IsVisible(TVSearch) | Window.IsVisible(RadioSearch)]</visible>
+				</item>
+				<item>
+					<label>587</label>
+					<onclick>SendClick(31)</onclick>
+					<icon>icon_filter.png</icon>
+					<visible>Window.IsVisible(TVChannels) | Window.IsVisible(RadioChannels)</visible>
 				</item>
 				<item>
 					<label>31202</label>
