@@ -21,7 +21,7 @@
 			<posy>0</posy>
 			<include>WindowTitleCommons</include>
 			<width>1170</width>
-			<label>$LOCALIZE[19199] - $LOCALIZE[19023]</label>
+			<label>$LOCALIZE[19143] - $LOCALIZE[19023]</label>
 			<visible>IsEmpty(Window.Property(IsRadio))</visible>
 		</control>
 		<control type="label">
@@ -29,7 +29,7 @@
 			<posy>0</posy>
 			<include>WindowTitleCommons</include>
 			<width>1170</width>
-			<label>$LOCALIZE[19199] - $LOCALIZE[19024]</label>
+			<label>$LOCALIZE[19143] - $LOCALIZE[19024]</label>
 			<visible>!IsEmpty(Window.Property(IsRadio))</visible>
 		</control>
 		<control type="group">
