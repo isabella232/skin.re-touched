@@ -108,9 +108,9 @@
 				</control>
 				<control type="textbox">
 					<posx>170</posx>
-					<posy>65</posy>
+					<posy>67</posy>
 					<width>580</width>
-					<height>160</height>
+					<height>158</height>
 					<font>font12</font>
 					<align>justify</align>
 					<textcolor>grey2</textcolor>
@@ -211,9 +211,9 @@
 				</control>
 				<control type="textbox">
 					<posx>170</posx>
-					<posy>65</posy>
+					<posy>67</posy>
 					<width>580</width>
-					<height>160</height>
+					<height>158</height>
 					<font>font12</font>
 					<align>justify</align>
 					<textcolor>black</textcolor>
@@ -245,9 +245,9 @@
 				</control>
 				<control type="textbox">
 					<posx>270</posx>
-					<posy>10</posy>
+					<posy>12</posy>
 					<width>480</width>
-					<height>155</height>
+					<height>153</height>
 					<font>font12</font>
 					<align>justify</align>
 					<textcolor>grey2</textcolor>
@@ -348,9 +348,9 @@
 				</control>
 				<control type="textbox">
 					<posx>270</posx>
-					<posy>10</posy>
+					<posy>12</posy>
 					<width>480</width>
-					<height>155</height>
+					<height>153</height>
 					<font>font12</font>
 					<align>justify</align>
 					<textcolor>black</textcolor>
@@ -490,9 +490,9 @@
 				</control>
 				<control type="textbox">
 					<posx>630</posx>
-					<posy>35</posy>
+					<posy>37</posy>
 					<width>880</width>
-					<height>80</height>
+					<height>78</height>
 					<font>font12</font>
 					<align>justify</align>
 					<textcolor>grey2</textcolor>
@@ -554,9 +554,9 @@
 				</control>
 				<control type="textbox">
 					<posx>630</posx>
-					<posy>35</posy>
+					<posy>37</posy>
 					<width>880</width>
-					<height>80</height>
+					<height>78</height>
 					<font>font12</font>
 					<align>justify</align>
 					<textcolor>black</textcolor>

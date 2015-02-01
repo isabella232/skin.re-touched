@@ -318,9 +318,9 @@
 			</control>
 			<control type="textbox">
 				<posx>740</posx>
-				<posy>440</posy>
+				<posy>442</posy>
 				<width>480</width>
-				<height>375</height>
+				<height>373</height>
 				<label>[B]$INFO[ListItem.Plot][/B]</label>
 				<font>font13</font>
 			</control>

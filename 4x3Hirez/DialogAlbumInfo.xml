@@ -86,9 +86,9 @@
 			<control type="textbox" id="601">
 				<description>Description Value for Albums</description>
 				<posx>280</posx>
-				<posy>30</posy>
+				<posy>32</posy>
 				<width>680</width>
-				<height>330</height>
+				<height>328</height>
 				<font>font13</font>
 				<textcolor>black</textcolor>
 				<pagecontrol>-</pagecontrol>
@@ -252,9 +252,9 @@
 			<control type="textbox" id="600">
 				<description>Description Value for Albums</description>
 				<posx>280</posx>
-				<posy>30</posy>
+				<posy>32</posy>
 				<width>680</width>
-				<height>330</height>
+				<height>328</height>
 				<font>font13</font>
 				<textcolor>black</textcolor>
 				<pagecontrol>-</pagecontrol>

@@ -77,9 +77,9 @@
 			<control type="textbox" id="601">
 				<description>Description Value for Albums</description>
 				<posx>280</posx>
-				<posy>80</posy>
+				<posy>82</posy>
 				<width>680</width>
-				<height>300</height>
+				<height>298</height>
 				<font>font13</font>
 				<textcolor>black</textcolor>
 				<pagecontrol>-</pagecontrol>
@@ -232,9 +232,9 @@
 				<control type="textbox">
 					<description>Disclaimer</description>
 					<posx>210</posx>
-					<posy>146</posy>
+					<posy>148</posy>
 					<width>770</width>
-					<height>60</height>
+					<height>58</height>
 					<font>font13</font>
 					<textcolor>black</textcolor>
 					<label fallback="231">$INFO[ListItem.Property(Addon.Disclaimer)]</label>
@@ -324,9 +324,9 @@
 				<control type="textbox">
 					<description>Reason label</description>
 					<posx>100</posx>
-					<posy>35</posy>
+					<posy>37</posy>
 					<width>800</width>
-					<height>50</height>
+					<height>48</height>
 					<font>font13</font>
 					<label>$INFO[ListItem.Property(Addon.broken)]</label>
 					<align>left</align>

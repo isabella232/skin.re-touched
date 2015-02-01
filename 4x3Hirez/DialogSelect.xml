@@ -152,9 +152,9 @@
 				</control>
 				<control type="textbox">
 					<posx>30</posx>
-					<posy>35</posy>
+					<posy>37</posy>
 					<width>540</width>
-					<height>60</height>
+					<height>58</height>
 					<font>font12</font>
 					<textcolor>black</textcolor>
 					<align>left</align>
@@ -192,9 +192,9 @@
 				</control>
 				<control type="textbox">
 					<posx>30</posx>
-					<posy>35</posy>
+					<posy>37</posy>
 					<width>540</width>
-					<height>60</height>
+					<height>58</height>
 					<font>font12</font>
 					<textcolor>black</textcolor>
 					<align>left</align>

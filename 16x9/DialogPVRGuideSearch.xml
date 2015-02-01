@@ -56,10 +56,10 @@
 		</control>
 		<control type="textbox">
 			<description>Search help</description>
-			<left>20</left>
-			<top>155</top>
+			<posx>20</posx>
+			<posy>157</posy>
 			<width>1200</width>
-			<height>70</height>
+			<height>68</height>
 			<align>left</align>
 			<label>$LOCALIZE[19001] $LOCALIZE[19002]</label>
 			<textcolor>black</textcolor>

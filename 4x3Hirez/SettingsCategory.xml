@@ -81,9 +81,9 @@
 			<control type="textbox" id="6">
 				<description>Settings Description</description>
 				<posx>40</posx>
-				<posy>25</posy>
+				<posy>27</posy>
 				<width>840</width>
-				<height>80</height>
+				<height>78</height>
 				<font>font13</font>
 				<textcolor>grey2</textcolor>
 				<align>left</align>
