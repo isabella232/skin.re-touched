@@ -813,7 +813,7 @@
 					<font>font13</font>
 					<align>left</align>
 					<textcolor>black</textcolor>
-					<label>$INFO[ListItem.Label]</label>
+					<label>$INFO[ListItem.Label][CR]$INFO[ListItem.Label2,(,)]</label>
 				</control>
 			</itemlayout>
 			<focusedlayout height="100" width="500">
@@ -843,7 +843,7 @@
 					<font>font13</font>
 					<align>left</align>
 					<textcolor>black</textcolor>
-					<label>$INFO[ListItem.Label]</label>
+					<label>$INFO[ListItem.Label][CR]$INFO[ListItem.Label2,(,)]</label>
 				</control>
 			</focusedlayout>
 		</control>
