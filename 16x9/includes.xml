@@ -106,6 +106,8 @@
 				<include>16x9_xPos_Relocation</include>
 				<posx>535</posx>
 				<posy>23</posy>
+				<include>VisibleFadeEffect</include>
+				<visible>Player.HasMedia</visible>
 				<control type="button">
 					<description>Previous Button</description>
 					<posx>0</posx>
