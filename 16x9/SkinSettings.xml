@@ -67,7 +67,7 @@
 				<posx>370</posx>
 				<posy>140</posy>
 				<width>920</width>
-				<height>670</height>
+				<height>692</height>
 				<itemgap>-1</itemgap>
 				<pagecontrol>60</pagecontrol>
 				<onup>100</onup>
@@ -258,7 +258,7 @@
 				<posx>370</posx>
 				<posy>140</posy>
 				<width>920</width>
-				<height>750</height>
+				<height>692</height>
 				<itemgap>-1</itemgap>
 				<pagecontrol>60</pagecontrol>
 				<onup>200</onup>
