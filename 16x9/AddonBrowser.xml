@@ -78,7 +78,7 @@
 					<posx>11</posx>
 					<posy>10</posy>
 					<width>298</width>
-					<height>420</height>
+					<height>450</height>
 					<onleft>9000</onleft>
 					<onright>50</onright>
 					<onup>9000</onup>
@@ -102,6 +102,11 @@
 						<description>addon-updates</description>
 						<include>ButtonCommonValues2</include>
 						<label>24063</label>
+					</control>
+					<control type="button" id="9">
+						<description>Check for updates</description>
+						<include>ButtonCommonValues2</include>
+						<label>24034</label>
 					</control>
 					<control type="radiobutton" id ="6">
 						<description>No notifications</description>
