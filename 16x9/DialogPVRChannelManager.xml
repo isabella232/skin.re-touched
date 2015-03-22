@@ -255,9 +255,9 @@
 			</control>
 		</control>
 		<control type="grouplist" id="9000">
-			<posx>150</posx>
+			<posx>130</posx>
 			<posy>830</posy>
-			<width>980</width>
+			<width>1020</width>
 			<height>50</height>
 			<itemgap>5</itemgap>
 			<align>center</align>
@@ -293,6 +293,12 @@
 				<alttexturenofocus border="5">ListNF.png</alttexturenofocus>
 				<label>19024</label>
 				<altlabel>19023</altlabel>
+			</control>
+			<control type="button" id="31">
+				<description>Add channel button</description>
+				<width>200</width>
+				<include>ButtonInfoDialogsCommonValues</include>
+				<label>19204</label>
 			</control>
 		</control>
 	</controls>
