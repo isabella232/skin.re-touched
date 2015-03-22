@@ -1066,6 +1066,16 @@
 						<onclick condition="IsEmpty(Window.Property(IsRadio))">ReplaceWindow(RadioChannels)</onclick>
 						<onclick condition="!IsEmpty(Window.Property(IsRadio))">ReplaceWindow(TVChannels)</onclick>
 					</control>
+					<control type="radiobutton" id="6">
+						<include>ButtonCommonValues2</include>
+						<label>31564</label>
+						<visible>Window.IsVisible(TVChannels) | Window.IsVisible(RadioChannels)</visible>
+					</control>
+					<control type="radiobutton" id="7">
+						<include>ButtonCommonValues2</include>
+						<label>31565</label>
+						<visible>Window.IsVisible(TVRecordings) | Window.IsVisible(RadioRecordings)</visible>
+					</control>
 					<control type="image">
 						<posx>0</posx>
 						<posy>100</posy>

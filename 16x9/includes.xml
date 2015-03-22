@@ -1022,7 +1022,7 @@
 					<posx>11</posx>
 					<posy>10</posy>
 					<width>298</width>
-					<height>420</height>
+					<height>450</height>
 					<onleft>9000</onleft>
 					<onright>50</onright>
 					<onup>9000</onup>
@@ -1065,6 +1065,16 @@
 						<label>$VAR[PVRSwitch]</label>
 						<onclick condition="IsEmpty(Window.Property(IsRadio))">ReplaceWindow(RadioChannels)</onclick>
 						<onclick condition="!IsEmpty(Window.Property(IsRadio))">ReplaceWindow(TVChannels)</onclick>
+					</control>
+					<control type="radiobutton" id="6">
+						<include>ButtonCommonValues2</include>
+						<label>31564</label>
+						<visible>Window.IsVisible(TVChannels) | Window.IsVisible(RadioChannels)</visible>
+					</control>
+					<control type="radiobutton" id="7">
+						<include>ButtonCommonValues2</include>
+						<label>31565</label>
+						<visible>Window.IsVisible(TVRecordings) | Window.IsVisible(RadioRecordings)</visible>
 					</control>
 					<control type="image">
 						<posx>0</posx>
