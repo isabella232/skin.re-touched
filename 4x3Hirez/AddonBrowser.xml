@@ -16,6 +16,13 @@
 			<description>Window label</description>
 			<include>MediaWindowTitleCommons</include>
 			<label>$LOCALIZE[24001]$INFO[Container.FolderName, - ]</label>
+			<visible>!StringCompare(ListItem.Path,addons://)</visible>
+		</control>
+		<control type="label">
+			<description>Window label</description>
+			<include>MediaWindowTitleCommons</include>
+			<label>$LOCALIZE[24001] - $LOCALIZE[31041] $INFO[Window(AddonBrowser).Property(Updated)]</label>
+			<visible>StringCompare(ListItem.Path,addons://)</visible>
 		</control>
 		<control type="group">
 			<include>Window_OpenClose_Animation_Zoom</include>
