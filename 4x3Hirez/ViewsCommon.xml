@@ -503,7 +503,7 @@
 					<posy>11</posy>
 					<width>40</width>
 					<height>30</height>
-					<texture>light/Set.png</texture>
+					<texture>light/Set.png]</texture>
 					<visible>ListItem.IsCollection</visible>
 				</control>
 				<control type="image">
@@ -560,7 +560,7 @@
 					<posy>11</posy>
 					<width>40</width>
 					<height>30</height>
-					<texture>light/Set.png</texture>
+					<texture>light/Set.png]</texture>
 					<visible>ListItem.IsCollection</visible>
 				</control>
 				<control type="image">
@@ -804,3 +804,4 @@
 		</control>
 	</include>
 </includes>
+
