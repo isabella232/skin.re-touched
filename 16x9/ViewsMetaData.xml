@@ -5,7 +5,7 @@
 			<visible>Container.Content(Movies) | Container.Content(Episodes)</visible>
 			<posx>120</posx>
 			<posy>120</posy>
-			<width>1100</width>
+			<width>1540</width>
 			<height>720</height>
 			<onleft>2</onleft>
 			<onright>60</onright>
@@ -14,33 +14,33 @@
 			<viewtype label="31030">list</viewtype>
 			<pagecontrol>60</pagecontrol>
 			<scrolltime>200</scrolltime>
-			<itemlayout condition="Container.Content(Movies)" height="180" width="1100">
+			<itemlayout condition="Container.Content(Movies)" height="240" width="770">
 				<control type="image">
 					<posx>0</posx>
 					<posy>5</posy>
-					<width>1100</width>
-					<height>175</height>
+					<width>765</width>
+					<height>235</height>
 					<texture border="5">SubBack.png</texture>
 				</control>
 				<control type="image">
 					<posx>5</posx>
 					<posy>10</posy>
-					<width>110</width>
-					<height>165</height>
+					<width>150</width>
+					<height>220</height>
 					<texture background="true">$VAR[PosterThumb]</texture>
 					<aspectratio>keep</aspectratio>
 				</control>
 				<control type="image">
 					<posx>0</posx>
 					<posy>5</posy>
-					<width>210</width>
-					<height>175</height>
+					<width>250</width>
+					<height>235</height>
 					<texture>GlassOverlay.png</texture>
 				</control>
 				<control type="label">
-					<posx>130</posx>
+					<posx>170</posx>
 					<posy>15</posy>
-					<width>840</width>
+					<width>400</width>
 					<height>25</height>
 					<font>font13_title</font>
 					<textcolor>white</textcolor>
@@ -50,9 +50,9 @@
 					<label>$INFO[ListItem.Label]</label>
 				</control>
 				<control type="label">
-					<posx>130</posx>
+					<posx>170</posx>
 					<posy>45</posy>
-					<width>840</width>
+					<width>390</width>
 					<height>20</height>
 					<font>font13</font>
 					<textcolor>white</textcolor>
@@ -62,9 +62,9 @@
 					<label>$INFO[ListItem.Genre]</label>
 				</control>
 				<control type="label">
-					<posx>590</posx>
+					<posx>310</posx>
 					<posy>7</posy>
-					<width>400</width>
+					<width>350</width>
 					<height>30</height>
 					<font>font13</font>
 					<textcolor>grey2</textcolor>
@@ -75,7 +75,7 @@
 				</control>
 				<control type="image">
 					<description>Rating value</description>
-					<posx>890</posx>
+					<posx>570</posx>
 					<posy>35</posy>
 					<width>100</width>
 					<height>25</height>
@@ -83,14 +83,14 @@
 					<texture fallback="light/left_rating/rating0.png">$INFO[ListItem.StarRating,light/left_rating/]</texture>
 				</control>
 				<control type="image">
-					<posx>1000</posx>
+					<posx>670</posx>
 					<posy>15</posy>
 					<width>60</width>
 					<height>40</height>
 					<texture>$INFO[ListItem.VideoResolution,light/,.png]</texture>
 				</control>
 				<control type="image">
-					<posx>1000</posx>
+					<posx>670</posx>
 					<posy>15</posy>
 					<width>60</width>
 					<height>40</height>
@@ -98,7 +98,7 @@
 					<visible>ListItem.IsCollection</visible>
 				</control>
 				<control type="image">
-					<posx>1062</posx>
+					<posx>730</posx>
 					<posy>22</posy>
 					<width>25</width>
 					<height>25</height>
@@ -107,7 +107,7 @@
 					<visible>ListItem.IsResumable</visible>
 				</control>
 				<control type="image">
-					<posx>1060</posx>
+					<posx>730</posx>
 					<posy>20</posy>
 					<width>30</width>
 					<height>30</height>
@@ -115,43 +115,43 @@
 					<visible>!ListItem.IsResumable</visible>
 				</control>
 				<control type="textbox">
-					<posx>130</posx>
+					<posx>170</posx>
 					<posy>67</posy>
-					<width>950</width>
-					<height>93</height>
+					<width>580</width>
+					<height>158</height>
 					<font>font12</font>
 					<align>justify</align>
 					<textcolor>grey2</textcolor>
 					<label>$INFO[ListItem.Plot]</label>
 				</control>
 			</itemlayout>
-			<focusedlayout condition="Container.Content(Movies)" height="180" width="1100">
+			<focusedlayout condition="Container.Content(Movies)" height="240" width="770">
 				<control type="image">
 					<posx>0</posx>
 					<posy>5</posy>
-					<width>1100</width>
-					<height>175</height>
+					<width>765</width>
+					<height>235</height>
 					<texture border="5">SubBack2.png</texture>
 				</control>
 				<control type="image">
 					<posx>5</posx>
 					<posy>10</posy>
-					<width>110</width>
-					<height>165</height>
+					<width>150</width>
+					<height>220</height>
 					<texture background="true">$VAR[PosterThumb]</texture>
 					<aspectratio>keep</aspectratio>
 				</control>
 				<control type="image">
 					<posx>0</posx>
 					<posy>5</posy>
-					<width>210</width>
-					<height>175</height>
+					<width>250</width>
+					<height>235</height>
 					<texture>GlassOverlay.png</texture>
 				</control>
 				<control type="label">
-					<posx>130</posx>
+					<posx>170</posx>
 					<posy>15</posy>
-					<width>840</width>
+					<width>400</width>
 					<height>25</height>
 					<font>font13_title</font>
 					<textcolor>black</textcolor>
@@ -161,9 +161,9 @@
 					<label>$INFO[ListItem.Label]</label>
 				</control>
 				<control type="label">
-					<posx>130</posx>
+					<posx>170</posx>
 					<posy>45</posy>
-					<width>840</width>
+					<width>390</width>
 					<height>20</height>
 					<font>font13</font>
 					<textcolor>black</textcolor>
@@ -173,9 +173,9 @@
 					<label>$INFO[ListItem.Genre]</label>
 				</control>
 				<control type="label">
-					<posx>590</posx>
+					<posx>310</posx>
 					<posy>7</posy>
-					<width>400</width>
+					<width>350</width>
 					<height>30</height>
 					<font>font13</font>
 					<textcolor>black</textcolor>
@@ -186,7 +186,7 @@
 				</control>
 				<control type="image">
 					<description>Rating value</description>
-					<posx>890</posx>
+					<posx>570</posx>
 					<posy>35</posy>
 					<width>100</width>
 					<height>25</height>
@@ -194,14 +194,14 @@
 					<texture fallback="dark/left_rating/rating0.png">$INFO[ListItem.StarRating,dark/left_rating/]</texture>
 				</control>
 				<control type="image">
-					<posx>1000</posx>
+					<posx>670</posx>
 					<posy>15</posy>
 					<width>60</width>
 					<height>40</height>
 					<texture>$INFO[ListItem.VideoResolution,dark/,.png]</texture>
 				</control>
 				<control type="image">
-					<posx>1000</posx>
+					<posx>670</posx>
 					<posy>15</posy>
 					<width>60</width>
 					<height>40</height>
@@ -209,7 +209,7 @@
 					<visible>ListItem.IsCollection</visible>
 				</control>
 				<control type="image">
-					<posx>1062</posx>
+					<posx>730</posx>
 					<posy>22</posy>
 					<width>25</width>
 					<height>25</height>
@@ -218,7 +218,7 @@
 					<visible>ListItem.IsResumable</visible>
 				</control>
 				<control type="image">
-					<posx>1060</posx>
+					<posx>730</posx>
 					<posy>20</posy>
 					<width>30</width>
 					<height>30</height>
@@ -226,28 +226,28 @@
 					<visible>!ListItem.IsResumable</visible>
 				</control>
 				<control type="textbox">
-					<posx>130</posx>
+					<posx>170</posx>
 					<posy>67</posy>
-					<width>950</width>
-					<height>93</height>
+					<width>580</width>
+					<height>158</height>
 					<font>font12</font>
 					<align>justify</align>
 					<textcolor>black</textcolor>
 					<label>$INFO[ListItem.Plot]</label>
 				</control>
 			</focusedlayout>
-			<itemlayout condition="Container.Content(Episodes)" height="180" width="1100">
+			<itemlayout condition="Container.Content(Episodes)" height="240" width="770">
 				<control type="image">
 					<posx>0</posx>
 					<posy>5</posy>
-					<width>1100</width>
-					<height>170</height>
+					<width>765</width>
+					<height>235</height>
 					<texture border="5">SubBack.png</texture>
 				</control>
 				<control type="image">
 					<posx>5</posx>
 					<posy>10</posy>
-					<width>230</width>
+					<width>250</width>
 					<height>160</height>
 					<aspectratio>scale</aspectratio>
 					<texture background="true">$INFO[ListItem.Icon]</texture>
@@ -255,24 +255,24 @@
 				<control type="image">
 					<posx>0</posx>
 					<posy>5</posy>
-					<width>200</width>
-					<height>170</height>
+					<width>250</width>
+					<height>235</height>
 					<texture>GlassOverlay.png</texture>
 				</control>
 				<control type="textbox">
-					<posx>250</posx>
-					<posy>72</posy>
-					<width>830</width>
-					<height>81</height>
+					<posx>270</posx>
+					<posy>12</posy>
+					<width>480</width>
+					<height>153</height>
 					<font>font12</font>
 					<align>justify</align>
 					<textcolor>grey2</textcolor>
 					<label>$INFO[ListItem.Plot]</label>
 				</control>
 				<control type="label">
-					<posx>250</posx>
-					<posy>15</posy>
-					<width>760</width>
+					<posx>10</posx>
+					<posy>180</posy>
+					<width>600</width>
 					<height>25</height>
 					<font>font13_title</font>
 					<textcolor>white</textcolor>
@@ -282,9 +282,9 @@
 					<label>$INFO[ListItem.Label]</label>
 				</control>
 				<control type="label">
-					<posx>250</posx>
-					<posy>45</posy>
-					<width>760</width>
+					<posx>10</posx>
+					<posy>210</posy>
+					<width>550</width>
 					<height>20</height>
 					<font>font13</font>
 					<textcolor>white</textcolor>
@@ -294,8 +294,8 @@
 					<label>$INFO[ListItem.Premiered,$LOCALIZE[20416] : ]</label>
 				</control>
 				<control type="label">
-					<posx>590</posx>
-					<posy>7</posy>
+					<posx>260</posx>
+					<posy>180</posy>
 					<width>400</width>
 					<height>30</height>
 					<font>font13</font>
@@ -307,23 +307,23 @@
 				</control>
 				<control type="image">
 					<description>Rating value</description>
-					<posx>890</posx>
-					<posy>35</posy>
+					<posx>570</posx>
+					<posy>210</posy>
 					<width>100</width>
 					<height>25</height>
 					<aspectratio align="left">keep</aspectratio>
 					<texture fallback="light/left_rating/rating0.png">$INFO[ListItem.StarRating,light/left_rating/]</texture>
 				</control>
 				<control type="image">
-					<posx>1000</posx>
-					<posy>15</posy>
+					<posx>670</posx>
+					<posy>185</posy>
 					<width>60</width>
 					<height>40</height>
 					<texture>$INFO[ListItem.VideoResolution,light/,.png]</texture>
 				</control>
 				<control type="image">
-					<posx>1062</posx>
-					<posy>22</posy>
+					<posx>730</posx>
+					<posy>190</posy>
 					<width>25</width>
 					<height>25</height>
 					<aspectratio>keep</aspectratio>
@@ -331,26 +331,26 @@
 					<visible>ListItem.IsResumable</visible>
 				</control>
 				<control type="image">
-					<posx>1060</posx>
-					<posy>20</posy>
+					<posx>730</posx>
+					<posy>190</posy>
 					<width>30</width>
 					<height>30</height>
 					<texture>$INFO[ListItem.Overlay,light/]</texture>
 					<visible>!ListItem.IsResumable</visible>
 				</control>
 			</itemlayout>
-			<focusedlayout condition="Container.Content(Episodes)" height="165" width="1180">
+			<focusedlayout condition="Container.Content(Episodes)" height="240" width="770">
 				<control type="image">
 					<posx>0</posx>
 					<posy>5</posy>
-					<width>1180</width>
-					<height>170</height>
+					<width>765</width>
+					<height>235</height>
 					<texture border="5">SubBack2.png</texture>
 				</control>
 				<control type="image">
 					<posx>5</posx>
 					<posy>10</posy>
-					<width>230</width>
+					<width>250</width>
 					<height>160</height>
 					<aspectratio>scale</aspectratio>
 					<texture background="true">$INFO[ListItem.Icon]</texture>
@@ -358,24 +358,24 @@
 				<control type="image">
 					<posx>0</posx>
 					<posy>5</posy>
-					<width>200</width>
-					<height>170</height>
+					<width>250</width>
+					<height>235</height>
 					<texture>GlassOverlay.png</texture>
 				</control>
 				<control type="textbox">
-					<posx>250</posx>
-					<posy>72</posy>
-					<width>830</width>
-					<height>81</height>
+					<posx>270</posx>
+					<posy>12</posy>
+					<width>480</width>
+					<height>153</height>
 					<font>font12</font>
 					<align>justify</align>
 					<textcolor>black</textcolor>
 					<label>$INFO[ListItem.Plot]</label>
 				</control>
 				<control type="label">
-					<posx>250</posx>
-					<posy>15</posy>
-					<width>760</width>
+					<posx>10</posx>
+					<posy>180</posy>
+					<width>600</width>
 					<height>25</height>
 					<font>font13_title</font>
 					<textcolor>black</textcolor>
@@ -385,9 +385,9 @@
 					<label>$INFO[ListItem.Label]</label>
 				</control>
 				<control type="label">
-					<posx>250</posx>
-					<posy>45</posy>
-					<width>760</width>
+					<posx>10</posx>
+					<posy>210</posy>
+					<width>550</width>
 					<height>20</height>
 					<font>font13</font>
 					<textcolor>black</textcolor>
@@ -397,8 +397,8 @@
 					<label>$INFO[ListItem.Premiered,$LOCALIZE[20416] : ]</label>
 				</control>
 				<control type="label">
-					<posx>590</posx>
-					<posy>7</posy>
+					<posx>260</posx>
+					<posy>180</posy>
 					<width>400</width>
 					<height>30</height>
 					<font>font13</font>
@@ -410,23 +410,23 @@
 				</control>
 				<control type="image">
 					<description>Rating value</description>
-					<posx>890</posx>
-					<posy>35</posy>
+					<posx>570</posx>
+					<posy>210</posy>
 					<width>100</width>
 					<height>25</height>
 					<aspectratio align="left">keep</aspectratio>
 					<texture fallback="dark/left_rating/rating0.png">$INFO[ListItem.StarRating,dark/left_rating/]</texture>
 				</control>
 				<control type="image">
-					<posx>1000</posx>
-					<posy>15</posy>
+					<posx>670</posx>
+					<posy>185</posy>
 					<width>60</width>
 					<height>40</height>
 					<texture>$INFO[ListItem.VideoResolution,dark/,.png]</texture>
 				</control>
 				<control type="image">
-					<posx>1062</posx>
-					<posy>22</posy>
+					<posx>730</posx>
+					<posy>190</posy>
 					<width>25</width>
 					<height>25</height>
 					<aspectratio>keep</aspectratio>
@@ -434,8 +434,8 @@
 					<visible>ListItem.IsResumable</visible>
 				</control>
 				<control type="image">
-					<posx>1060</posx>
-					<posy>20</posy>
+					<posx>730</posx>
+					<posy>190</posy>
 					<width>30</width>
 					<height>30</height>
 					<texture>$INFO[ListItem.Overlay,dark/]</texture>
@@ -449,7 +449,7 @@
 			<visible>Container.Content(TVShows)</visible>
 			<posx>120</posx>
 			<posy>130</posy>
-			<width>1100</width>
+			<width>1530</width>
 			<height>700</height>
 			<onleft>502</onleft>
 			<onright>502</onright>
@@ -459,11 +459,11 @@
 			<scrolltime>300</scrolltime>
 			<preloaditems>2</preloaditems>
 			<viewtype label="31031">list</viewtype>
-			<itemlayout height="140" width="1100">
+			<itemlayout height="140" width="1530">
 				<control type="image">
 					<posx>0</posx>
 					<posy>5</posy>
-					<width>1100</width>
+					<width>1530</width>
 					<height>134</height>
 					<texture border="5">SubBack.png</texture>
 				</control>
@@ -485,7 +485,7 @@
 				<control type="label">
 					<posx>630</posx>
 					<posy>15</posy>
-					<width>410</width>
+					<width>800</width>
 					<height>20</height>
 					<font>font12_title</font>
 					<textcolor>white</textcolor>
@@ -494,7 +494,7 @@
 					<label>$INFO[ListItem.Label]</label>
 				</control>
 				<control type="label">
-					<posx>800</posx>
+					<posx>1230</posx>
 					<posy>15</posy>
 					<width>280</width>
 					<height>20</height>
@@ -507,7 +507,7 @@
 				<control type="textbox">
 					<posx>630</posx>
 					<posy>37</posy>
-					<width>450</width>
+					<width>880</width>
 					<height>78</height>
 					<font>font12</font>
 					<align>justify</align>
@@ -515,19 +515,19 @@
 					<label>$INFO[ListItem.Plot]</label>
 				</control>
 				<control type="image">
-					<posx>5</posx>
-					<posy>8</posy>
+					<posx>10</posx>
+					<posy>15</posy>
 					<width>30</width>
 					<height>30</height>
 					<texture>$INFO[ListItem.Overlay,light/]</texture>
 					<visible>!ListItem.IsResumable</visible>
 				</control>
 			</itemlayout>
-			<focusedlayout height="140" width="1100">
+			<focusedlayout height="140" width="1530">
 				<control type="image">
 					<posx>0</posx>
 					<posy>5</posy>
-					<width>1100</width>
+					<width>1530</width>
 					<height>134</height>
 					<texture border="5">SubBack2.png</texture>
 				</control>
@@ -549,7 +549,7 @@
 				<control type="label">
 					<posx>630</posx>
 					<posy>15</posy>
-					<width>410</width>
+					<width>800</width>
 					<height>20</height>
 					<font>font12_title</font>
 					<textcolor>black</textcolor>
@@ -558,7 +558,7 @@
 					<label>$INFO[ListItem.Label]</label>
 				</control>
 				<control type="label">
-					<posx>800</posx>
+					<posx>1230</posx>
 					<posy>15</posy>
 					<width>280</width>
 					<height>20</height>
@@ -571,7 +571,7 @@
 				<control type="textbox">
 					<posx>630</posx>
 					<posy>37</posy>
-					<width>450</width>
+					<width>880</width>
 					<height>78</height>
 					<font>font12</font>
 					<align>justify</align>
@@ -579,8 +579,8 @@
 					<label>$INFO[ListItem.Plot]</label>
 				</control>
 				<control type="image">
-					<posx>5</posx>
-					<posy>8</posy>
+					<posx>10</posx>
+					<posy>15</posy>
 					<width>30</width>
 					<height>30</height>
 					<texture>$INFO[ListItem.Overlay,dark/]</texture>
@@ -590,3 +590,4 @@
 		</control>
 	</include>
 </includes>
+

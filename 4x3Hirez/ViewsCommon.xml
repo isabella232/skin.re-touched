@@ -399,6 +399,14 @@
 					<visible>Container.Content(MusicVideos)</visible>
 				</control>
 				<control type="image">
+					<posx>170</posx>
+					<posy>11</posy>
+					<width>40</width>
+					<height>30</height>
+					<texture>light/Set.png</texture>
+					<visible>ListItem.IsCollection</visible>
+				</control>
+				<control type="image">
 					<posx>180</posx>
 					<posy>170</posy>
 					<width>30</width>
@@ -450,6 +458,14 @@
 					<visible>Container.Content(MusicVideos)</visible>
 				</control>
 				<control type="image">
+					<posx>170</posx>
+					<posy>11</posy>
+					<width>40</width>
+					<height>30</height>
+					<texture>light/Set.png</texture>
+					<visible>ListItem.IsCollection</visible>
+				</control>
+				<control type="image">
 					<posx>180</posx>
 					<posy>170</posy>
 					<width>30</width>
@@ -499,14 +515,6 @@
 					<texture>$INFO[ListItem.VideoResolution,light/,.png]</texture>
 				</control>
 				<control type="image">
-					<posx>170</posx>
-					<posy>11</posy>
-					<width>40</width>
-					<height>30</height>
-					<texture>light/Set.png]</texture>
-					<visible>ListItem.IsCollection</visible>
-				</control>
-				<control type="image">
 					<posx>180</posx>
 					<posy>270</posy>
 					<width>30</width>
@@ -554,14 +562,6 @@
 					<width>40</width>
 					<height>30</height>
 					<texture>$INFO[ListItem.VideoResolution,light/,.png]</texture>
-				</control>
-				<control type="image">
-					<posx>170</posx>
-					<posy>11</posy>
-					<width>40</width>
-					<height>30</height>
-					<texture>light/Set.png]</texture>
-					<visible>ListItem.IsCollection</visible>
 				</control>
 				<control type="image">
 					<posx>180</posx>
