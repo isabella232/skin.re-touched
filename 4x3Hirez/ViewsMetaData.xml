@@ -90,6 +90,14 @@
 					<texture>$INFO[ListItem.VideoResolution,light/,.png]</texture>
 				</control>
 				<control type="image">
+					<posx>1000</posx>
+					<posy>15</posy>
+					<width>60</width>
+					<height>40</height>
+					<texture>light/Set.png</texture>
+					<visible>ListItem.IsCollection</visible>
+				</control>
+				<control type="image">
 					<posx>1062</posx>
 					<posy>22</posy>
 					<width>25</width>
@@ -191,6 +199,14 @@
 					<width>60</width>
 					<height>40</height>
 					<texture>$INFO[ListItem.VideoResolution,dark/,.png]</texture>
+				</control>
+				<control type="image">
+					<posx>1000</posx>
+					<posy>15</posy>
+					<width>60</width>
+					<height>40</height>
+					<texture>dark/Set.png</texture>
+					<visible>ListItem.IsCollection</visible>
 				</control>
 				<control type="image">
 					<posx>1062</posx>
