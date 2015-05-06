@@ -441,7 +441,7 @@
 			<height>64</height>
 			<texturenofocus>icon_system.png</texturenofocus>
 			<texturefocus>icon_system.png</texturefocus>
-			<onclick>Skin.ToggleSetting(SettingsSubMenuVisible)</onclick>
+			<onclick>Skin.ToggleSetting(MediaSubMenuVisible)</onclick>
 		</control>
 	</include>
 	<include name="DialogCloseButtonCommons">
