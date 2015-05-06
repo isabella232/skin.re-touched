@@ -8,7 +8,7 @@
 		<include>CommonBackgroundOverlay</include>
 		<include>HomeButtonCommons</include>
 		<include>CommonNowPlaying</include>
-		<include>SettingsButtonCommons</include>
+		<include>OptionsButtonCommons</include>
 		<include>ScrollBarCommons</include>
 		<control type="label">
 			<description>Window label</description>
