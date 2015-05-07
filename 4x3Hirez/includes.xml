@@ -1138,6 +1138,13 @@
 			<include>MenuButtonCommonValues</include>
 			<onclick>Skin.Reset(MediaSubMenuVisible)</onclick>
 		</control>
+		<control type="button" id="1467">
+			<description>Current Playlist</description>
+			<include>MenuButtonCommonValues</include>
+			<label>13350</label>
+			<onclick>ActivateWindow(musicplaylist)</onclick>
+			<visible>!StringCompare(Playlist.Length(music),0)</visible>
+		</control>
 	</include>
 	<include name="MusicFilesMenu">
 		<control type="button" id="3">
@@ -1162,6 +1169,13 @@
 			<onclick>ReplaceWindow(MusicLibrary)</onclick>
 			<selected>Window.IsVisible(MusicLibrary)</selected>
 			<include>MenuButtonCommonValues</include>
+		</control>
+		<control type="button" id="1467">
+			<description>Current Playlist</description>
+			<include>MenuButtonCommonValues</include>
+			<label>13350</label>
+			<onclick>ActivateWindow(musicplaylist)</onclick>
+			<visible>!StringCompare(Playlist.Length(music),0)</visible>
 		</control>
 	</include>
 	<include name="MusicPlaylistMenu">
@@ -1361,6 +1375,13 @@
 			<label>589</label>
 			<include>MenuButtonCommonValues</include>
 			<visible>Library.HasContent(MusicVideos)</visible>
+		</control>
+		<control type="button" id="1467">
+			<description>Current Playlist</description>
+			<include>MenuButtonCommonValues</include>
+			<label>13350</label>
+			<onclick>ActivateWindow(videoplaylist)</onclick>
+			<visible>!StringCompare(Playlist.Length(video),0)</visible>
 		</control>
 	</include>
 	<include name="VideoPlaylistMenu">

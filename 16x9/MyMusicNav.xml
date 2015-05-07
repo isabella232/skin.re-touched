@@ -25,9 +25,9 @@
 		<include>ScrollBarCommons</include>
 		<include>MediaSubMenu</include>
 		<include name="DropdownMenu">
-			<param name="SB">440</param>
-			<param name="PB">380</param>
-			<param name="PF">362</param>
+			<param name="SB">500</param>
+			<param name="PB">440</param>
+			<param name="PF">422</param>
 		</include>
 		<include>ScrollOffsetLabel</include>
 		<include>BehindDialogFadeOut</include>
