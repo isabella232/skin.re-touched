@@ -15,6 +15,7 @@
 			<label>$LOCALIZE[10503]</label>
 		</control>
 		<control type="group">
+			<include>16x9_xPos_Relocation</include>
 			<posx>40</posx>
 			<posy>110</posy>
 			<include>Window_OpenClose_Animation_Zoom</include>
@@ -38,7 +39,7 @@
 				<font>font13</font>
 				<align>left</align>
 				<scroll>true</scroll>
-				<textcolor>grey2</textcolor>
+				<textcolor>white</textcolor>
 				<shadowcolor>black</shadowcolor>
 				<label>($INFO[Container(50).NumItems]) $LOCALIZE[31025] - $LOCALIZE[31024] ($INFO[Container(50).CurrentPage]/$INFO[Container(50).NumPages])</label>
 			</control>
@@ -158,6 +159,7 @@
 			</control>
 		</control>
 		<control type="group">
+			<include>16x9_xPos_Relocation</include>
 			<include>Window_OpenClose_Animation_Zoom</include>
 			<posx>650</posx>
 			<posy>110</posy>
@@ -181,7 +183,7 @@
 				<font>font13</font>
 				<align>right</align>
 				<scroll>true</scroll>
-				<textcolor>grey2</textcolor>
+				<textcolor>white</textcolor>
 				<shadowcolor>black</shadowcolor>
 				<label>($INFO[Container(100).NumItems]) $LOCALIZE[31025] - $LOCALIZE[31024] ($INFO[Container(100).CurrentPage]/$INFO[Container(100).NumPages])</label>
 			</control>
