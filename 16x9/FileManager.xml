@@ -309,10 +309,5 @@
 				</item>
 			</content>
 		</control>
-		<include name="DropdownMenu">
-			<param name="SB">260</param>
-			<param name="PB">200</param>
-			<param name="PF">182</param>
-		</include>
 	</controls>
 </window>
