@@ -513,13 +513,14 @@
 	<include name="SubMenuCommonLayout">
 		<animation effect="fade" start="100" end="0" time="300" condition="Window.Next(Home)">WindowClose</animation>
 		<animation effect="fade" end="100" start="0" time="300" condition="Window.Previous(Home)">WindowOpen</animation>
-		<animation effect="slide" start="0,0" end="132,0" time="0" condition="StringCompare(Container(9002).NumItems,4)">conditional</animation>
-		<animation effect="slide" start="0,0" end="264,0" time="0" condition="StringCompare(Container(9002).NumItems,3)">conditional</animation>
-		<animation effect="slide" start="0,0" end="396,0" time="0" condition="StringCompare(Container(9002).NumItems,2)">conditional</animation>
-		<animation effect="slide" start="0,0" end="528,0" time="0" condition="StringCompare(Container(9002).NumItems,1)">conditional</animation>
-		<posx>670r</posx>
+		<animation effect="slide" start="0,0" end="132,0" time="0" condition="StringCompare(Container(9002).NumItems,5)">conditional</animation>
+		<animation effect="slide" start="0,0" end="264,0" time="0" condition="StringCompare(Container(9002).NumItems,4)">conditional</animation>
+		<animation effect="slide" start="0,0" end="396,0" time="0" condition="StringCompare(Container(9002).NumItems,3)">conditional</animation>
+		<animation effect="slide" start="0,0" end="528,0" time="0" condition="StringCompare(Container(9002).NumItems,2)">conditional</animation>
+		<animation effect="slide" start="0,0" end="660,0" time="0" condition="StringCompare(Container(9002).NumItems,1)">conditional</animation>
+		<posx>802r</posx>
 		<posy>95r</posy>
-		<width>660</width>
+		<width>802</width>
 		<height>120</height>
 		<onleft>9002</onleft>
 		<onright>9002</onright>
