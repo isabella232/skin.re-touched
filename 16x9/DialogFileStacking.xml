@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<window id="2008">
+<window>
 	<defaultcontrol>450</defaultcontrol>
 	<include>16x9_xPos_Relocation</include>
 	<include>dialogeffect</include>
