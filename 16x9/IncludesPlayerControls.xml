@@ -1133,6 +1133,14 @@
 						<onclick>ActivateWindow(122)</onclick>
 						<visible>Window.IsVisible(Visualisation)</visible>
 					</control>
+					<control type="button">
+						<include>ButtonCommonValues2</include>
+						<label>15047</label>
+						<onclick>Dialog.Close(MusicOSD,true)</onclick>
+						<onclick>Skin.Reset(PlayerControlsSubMenuVisible)</onclick>
+						<onclick>ActivateWindow(OSDAudioDSPSettings)</onclick>
+						<visible>system.getbool(audiooutput.dspaddonsenabled)</visible>
+					</control>
 					<control type="image">
 						<posx>0</posx>
 						<posy>100</posy>
