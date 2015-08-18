@@ -1062,6 +1062,7 @@
 					<ondown>9000</ondown>
 					<itemgap>0</itemgap>
 					<include condition="Window.IsVisible(AddonBrowser)">AddonsMenu</include>
+					<include condition="Window.IsVisible(EventLog)">EventLogMenu</include>
 					<include condition="Window.IsVisible(MusicLibrary)">MusicMenu</include>
 					<include condition="Window.IsVisible(MusicFiles)">MusicFilesMenu</include>
 					<include condition="Window.IsVisible(MusicPlaylist)">MusicPlaylistMenu</include>
@@ -1123,6 +1124,33 @@
 			<textwidth>240</textwidth>
 			<include>MenuButtonCommonValues</include>
 			<label>24999</label>
+		</control>
+	</include>
+	<include name="EventLogMenu">
+		<control type="togglebutton" id="4">
+			<description>Sort asc</description>
+			<include>MenuButtonCommonValues</include>
+			<alttexturefocus>button-focus2.png</alttexturefocus>
+			<alttexturenofocus>button-nofocus.png</alttexturenofocus>
+			<label>31051</label>
+			<altlabel>31050</altlabel>
+			<usealttexture>Container.SortDirection(Ascending)</usealttexture>
+		</control>
+		<control type="button" id="21">
+			<description>Level button</description>
+			<include>MenuButtonCommonValues</include>
+			<label>-</label>
+		</control>
+		<control type="radiobutton" id ="22">
+			<description>Only show current level</description>
+			<textwidth>240</textwidth>
+			<include>MenuButtonCommonValues</include>
+			<label>-</label>
+		</control>
+		<control type="button" id="20">
+			<description>Clear button</description>
+			<include>MenuButtonCommonValues</include>
+			<label>192</label>
 		</control>
 	</include>
 	<include name="MusicMenu">
