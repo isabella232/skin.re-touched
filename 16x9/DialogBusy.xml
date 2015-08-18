@@ -10,7 +10,7 @@
 		<control type="image">
 			<posx>0</posx>
 			<posy>0</posy>
-			<width>ScreenWidth</width>
+			<include>ScreenWidth</include>
 			<height>ScreenHeight</height>
 			<colordiffuse>BBFFFFFF</colordiffuse>
 			<texture>black-back.png</texture>

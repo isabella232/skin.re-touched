@@ -6,7 +6,7 @@
 			<description>visualisation</description>
 			<posx>0</posx>
 			<posy>0</posy>
-			<width>ScreenWidth</width>
+			<include>ScreenWidth</include>
 			<height>ScreenHeight</height>
 			<visible>false</visible>
 		</control>
@@ -14,7 +14,7 @@
 			<description>fullscreen image</description>
 			<posx>0</posx>
 			<posy>0</posy>
-			<width>ScreenWidth</width>
+			<include>ScreenWidth</include>
 			<height>ScreenHeight</height>
 			<visible>false</visible>
 		</control>
@@ -60,7 +60,7 @@
 			<control type="image">
 				<posx>0</posx>
 				<posy>0</posy>
-				<width>ScreenWidth</width>
+				<include>ScreenWidth</include>
 				<height>64</height>
 				<texture>header.png</texture>
 			</control>
@@ -68,7 +68,7 @@
 				<description>Next Song Name</description>
 				<posx>0</posx>
 				<posy>0</posy>
-				<width>ScreenWidth</width>
+				<include>ScreenWidth</include>
 				<height>60</height>
 				<font>font16</font>
 				<textcolor>white</textcolor>
