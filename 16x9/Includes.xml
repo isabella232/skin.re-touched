@@ -68,7 +68,7 @@
 		<width>1706</width>
 	</include>
 	<include name="ScreenWidth-4x3">
-		<width>12880</width>
+		<width>1280</width>
 	</include>
 
 	<include name="CommonBackground">
