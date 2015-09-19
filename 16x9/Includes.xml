@@ -1064,7 +1064,6 @@
 					<include condition="Window.IsVisible(AddonBrowser)">AddonsMenu</include>
 					<include condition="Window.IsVisible(EventLog)">EventLogMenu</include>
 					<include condition="Window.IsVisible(MusicLibrary)">MusicMenu</include>
-					<include condition="Window.IsVisible(MusicFiles)">MusicFilesMenu</include>
 					<include condition="Window.IsVisible(MusicPlaylist)">MusicPlaylistMenu</include>
 					<include condition="Window.IsVisible(MusicPlaylistEditor)">MusicPlaylistEditorMenu</include>
 					<include condition="Window.IsVisible(Pictures)">PicturesMenu</include>
@@ -1168,15 +1167,6 @@
 			<altlabel>31050</altlabel>
 			<usealttexture>Container.SortDirection(Ascending)</usealttexture>
 		</control>
-		<control type="radiobutton" id="99">
-			<description>Library button</description>
-			<textwidth>240</textwidth>
-			<label>$LOCALIZE[29800]</label>
-			<onclick>Skin.Reset(MediaSubMenuVisible)</onclick>
-			<onclick>ReplaceWindow(MusicFiles)</onclick>
-			<selected>Window.IsVisible(MusicLibrary)</selected>
-			<include>MenuButtonCommonValues</include>
-		</control>
 		<control type="button" id="8">
 			<description>Search</description>
 			<include>MenuButtonCommonValues</include>
@@ -1197,38 +1187,6 @@
 			<label>589</label>
 			<include>MenuButtonCommonValues</include>
 			<onclick>Skin.Reset(MediaSubMenuVisible)</onclick>
-		</control>
-		<control type="button" id="1467">
-			<description>Current Playlist</description>
-			<include>MenuButtonCommonValues</include>
-			<label>13350</label>
-			<onclick>ActivateWindow(musicplaylist)</onclick>
-			<visible>!StringCompare(Playlist.Length(music),0)</visible>
-		</control>
-	</include>
-	<include name="MusicFilesMenu">
-		<control type="button" id="3">
-			<description>Sort by button</description>
-			<include>MenuButtonCommonValues</include>
-			<label>103</label>
-		</control>
-		<control type="togglebutton" id="4">
-			<description>Sort asc</description>
-			<include>MenuButtonCommonValues</include>
-			<alttexturefocus>button-focus2.png</alttexturefocus>
-			<alttexturenofocus>button-nofocus.png</alttexturenofocus>
-			<label>31051</label>
-			<altlabel>31050</altlabel>
-			<usealttexture>Container.SortDirection(Ascending)</usealttexture>
-		</control>
-		<control type="radiobutton" id="99">
-			<description>Library button</description>
-			<textwidth>240</textwidth>
-			<label>$LOCALIZE[29800]</label>
-			<onclick>Skin.Reset(MediaSubMenuVisible)</onclick>
-			<onclick>ReplaceWindow(MusicLibrary)</onclick>
-			<selected>Window.IsVisible(MusicLibrary)</selected>
-			<include>MenuButtonCommonValues</include>
 		</control>
 		<control type="button" id="1467">
 			<description>Current Playlist</description>
