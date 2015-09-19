@@ -56,18 +56,6 @@
 				<height>25</height>
 				<info>Player.Volume</info>
 			</control>
-			<control type="slider" id="1">
-				<description>Volume Slider</description>
-				<posx>15</posx>
-				<posy>35</posy>
-				<width>420</width>
-				<height>25</height>
- 				<info>Player.Volume</info>
-				<action>Volume</action>
-				<texturesliderbar>OSDProgressBack2.png</texturesliderbar>
-				<textureslidernib>OSDSliderNib.png</textureslidernib>
-				<textureslidernibfocus>OSDSliderNib.png</textureslidernibfocus>
-			</control>
 		</control>
 	</controls>
 </window>
