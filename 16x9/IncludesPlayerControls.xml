@@ -615,7 +615,7 @@
 				<textureradioonnofocus>GoFullscreen.png</textureradioonnofocus>
 				<textureradioofffocus>GoFullscreen.png</textureradioofffocus>
 				<textureradiooffnofocus>GoFullscreen.png</textureradiooffnofocus>
-				<visible>!Window.IsVisible(Visualisation) + !Window.IsVisible(FullScreenVideo) + !Window.IsVisible(Karaoke)</visible>
+				<visible>!Window.IsVisible(Visualisation) + !Window.IsVisible(FullScreenVideo)</visible>
 			</control>
 			<control type="radiobutton">
 				<description>Fullscreen Button</description>
@@ -637,7 +637,7 @@
 				<textureradioonnofocus flipx="true" flipy="true">GoFullscreen.png</textureradioonnofocus>
 				<textureradioofffocus flipx="true" flipy="true">GoFullscreen.png</textureradioofffocus>
 				<textureradiooffnofocus flipx="true" flipy="true">GoFullscreen.png</textureradiooffnofocus>
-				<visible>Window.IsVisible(Visualisation) | Window.IsVisible(FullScreenVideo) + !Window.IsVisible(Karaoke)</visible>
+				<visible>Window.IsVisible(Visualisation) | Window.IsVisible(FullScreenVideo)</visible>
 			</control>
 		</control>
 		<control type="group">
