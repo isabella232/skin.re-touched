@@ -514,6 +514,7 @@
 						<posy>0</posy>
 						<width>150</width>
 						<height>80</height>
+						<visible>IsEmpty(Control.GetLabel(169))</visible>
 						<control type="button" id="302">
 							<description>SHIFT button</description>
 							<posx>0</posx>
@@ -529,8 +530,38 @@
 							<label>-</label>
 						</control>
 						<control type="image">
-							<description>Enter\done Icon image</description>
+							<description>Shift Icon image</description>
 							<posx>50</posx>
+							<posy>15</posy>
+							<width>50</width>
+							<height>50</height>
+							<aspectratio>keep</aspectratio>
+							<texture>icon_shift.png</texture>
+						</control>
+					</control>
+					<control type="group">
+						<posx>0</posx>
+						<posy>0</posy>
+						<width>80</width>
+						<height>80</height>
+						<visible>!IsEmpty(Control.GetLabel(169))</visible>
+						<control type="button" id="302">
+							<description>SHIFT button</description>
+							<posx>0</posx>
+							<posy>0</posy>
+							<width>80</width>
+							<height>80</height>
+							<texturenofocus border="5">KeyboardKeyDark.png</texturenofocus>
+							<texturefocus border="5">KeyboardKeyFocus.png</texturefocus>
+							<textcolor>white</textcolor>
+							<font>font16</font>
+							<align>left</align>
+							<aligny>center</aligny>
+							<label>-</label>
+						</control>
+						<control type="image">
+							<description>Shift Icon image</description>
+							<posx>15</posx>
 							<posy>15</posy>
 							<width>50</width>
 							<height>50</height>
@@ -629,7 +660,6 @@
 							<align>center</align>
 							<aligny>center</aligny>
 							<label>-</label>
-							<visible>IsEmpty(Control.GetLabel(169))</visible>
 						</control>
 						<control type="image">
 							<description>Previous Icon image</description>
@@ -660,7 +690,6 @@
 							<align>center</align>
 							<aligny>center</aligny>
 							<label>-</label>
-							<visible>IsEmpty(Control.GetLabel(169))</visible>
 						</control>
 						<control type="image">
 							<description>Next Icon image</description>
@@ -675,14 +704,14 @@
 					<control type="group">
 						<posx>0</posx>
 						<posy>0</posy>
-						<width>100</width>
+						<width>85</width>
 						<height>80</height>
 						<visible>!IsEmpty(Control.GetLabel(169))</visible>
 						<control type="button" id="305">
 							<description>previous button</description>
 							<posx>0</posx>
 							<posy>0</posy>
-							<width>100</width>
+							<width>85</width>
 							<height>80</height>
 							<texturenofocus border="5">KeyboardKeyDark.png</texturenofocus>
 							<texturefocus border="5">KeyboardKeyFocus.png</texturefocus>
@@ -691,11 +720,10 @@
 							<align>center</align>
 							<aligny>center</aligny>
 							<label>-</label>
-							<visible>!IsEmpty(Control.GetLabel(169))</visible>
 						</control>
 						<control type="image">
 							<description>Previous Icon image</description>
-							<posx>25</posx>
+							<posx>17</posx>
 							<posy>15</posy>
 							<width>50</width>
 							<height>40</height>
@@ -706,14 +734,14 @@
 					<control type="group">
 						<posx>0</posx>
 						<posy>0</posy>
-						<width>100</width>
+						<width>85</width>
 						<height>80</height>
 						<visible>!IsEmpty(Control.GetLabel(169))</visible>
 						<control type="button" id="306">
 							<description>next button</description>
 							<posx>0</posx>
 							<posy>0</posy>
-							<width>100</width>
+							<width>85</width>
 							<height>80</height>
 							<texturenofocus border="5">KeyboardKeyDark.png</texturenofocus>
 							<texturefocus border="5">KeyboardKeyFocus.png</texturefocus>
@@ -722,11 +750,10 @@
 							<align>center</align>
 							<aligny>center</aligny>
 							<label>-</label>
-							<visible>!IsEmpty(Control.GetLabel(169))</visible>
 						</control>
 						<control type="image">
 							<description>Next Icon image</description>
-							<posx>25</posx>
+							<posx>17</posx>
 							<posy>15</posy>
 							<width>50</width>
 							<height>40</height>
